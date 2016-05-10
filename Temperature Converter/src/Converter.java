@@ -33,40 +33,8 @@ public class Converter extends JFrame
 					convertedTemp=(number*9.0/5.0)+(32);
 					JOptionPane.showMessageDialog(frame, userTemp+" "+((String) scale).substring(0,1)+" = " + convertedTemp + " F");
 				}
-			
-			/*
-			if((userScale.equals("f"))||(userScale.equals("F")))
-				{
-				 convertedTemp=(5.0/9.0)*(number-32.0);
-				 JOptionPane.showMessageDialog(frame, userTemp+" "+userScale.toUpperCase()+" = " + convertedTemp + " C");
-				}
-			else
-				{
-					convertedTemp=(number*9.0/5.0)+(32);
-					JOptionPane.showMessageDialog(frame, userTemp+" "+userScale.toUpperCase()+" = " + convertedTemp + " F");
-				}
-				*/
-			
 		}
 
 	}
 
 
-
-/*
-switch(scale)
-{
-	case ;
-			{
-				convertedTemp=(5.0/9.0)*(number-32.0);
-				JOptionPane.showMessageDialog(frame, userTemp+" "+userScale.toUpperCase()+" = " + convertedTemp + " C");
-				break;
-			}
-	default:
-			{
-				convertedTemp=(number*9.0/5.0)+(32);
-				JOptionPane.showMessageDialog(frame, userTemp+" "+userScale.toUpperCase()+" = " + convertedTemp + " F");
-				break;
-			}
-}
-*/
